@@ -4,7 +4,7 @@
 
 **CSS & JS only**
 
-I was making a pomodoro app and wanted to make a circle countdown but couldn't find a simple way to do it, there were some tutorials but not exactly what I wanted, or they were just a little overcomplicated. I made this template hoping to help people in a similar situations.
+I was coding a pomodoro app and wanted to make a circle countdown but couldn't find a simple way to do it, there were some tutorials but not exactly what I wanted, or they were just a little overcomplicated. I made this template hoping to help people in a similar situations.
 
 [Live test](https://circularcountdownlivetest.vercel.app/).
 
