@@ -1,0 +1,15 @@
+.github {
+    position: absolute;
+    font-size: 40px;
+    bottom: 10px;
+    transition: transform 300ms ease-in-out;
+}
+
+.github a {
+    color: #dcbeee;
+}
+
+.github:hover {
+    transform: scale(1.1);
+    transition: transform 300ms ease-in-out;
+}
