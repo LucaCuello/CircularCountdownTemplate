@@ -4,14 +4,14 @@
 
 **CSS & JS only**
 
-I was coding a pomodoro app and wanted to make a circle countdown but couldn't find a simple way to do it, there were some tutorials but not exactly what I wanted, or they were just a little overcomplicated. I made this template hoping to help people in a similar situations.
+I was coding a pomodoro app and wanted to make a circle countdown but couldn't find a simple way to do it, there were some tutorials but not exactly what I wanted, or they were just a little overcomplicated. I made this template hoping to help people in similar situations.
 
 [Live test](https://circularcountdownlivetest.vercel.app/).
 
 ## EXAMPLES
 
 
-<img src="https://iili.io/pQcA0l.png" alt="pQcA0l.md.png" border="0">
+<img src="https://iili.io/yoS1oB.png" alt="pQcA0l.md.png" border="0">
 
 <img src="https://i.ibb.co/2YC5KZ4/large.png" alt="large">
 <img src="https://iili.io/pQ0Kut.gif" alt="large">
@@ -21,3 +21,4 @@ I was coding a pomodoro app and wanted to make a circle countdown but couldn't f
 
 <img src="https://i.ibb.co/BqchQsk/small.png" alt="small">
 <img src="https://iili.io/pQEGTP.gif" alt="small">
+* Note: now you can set the initial position of the progress bar.
