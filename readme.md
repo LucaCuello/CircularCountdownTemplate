@@ -10,15 +10,13 @@ I was coding a pomodoro app and wanted to make a circle countdown but couldn't f
 
 ## EXAMPLES
 
+<img src="https://iili.io/Hob01vR.png" alt="pQcA0l.md.png" border="0">
 
-<img src="https://iili.io/yoS1oB.png" alt="pQcA0l.md.png" border="0">
-
-<img src="https://i.ibb.co/2YC5KZ4/large.png" alt="large">
+<img src="https://iili.io/Hob0mZP.png" alt="large">
 <img src="https://iili.io/pQ0Kut.gif" alt="large">
 
-<img src="https://i.ibb.co/gvKY5rx/medium.png" alt="medium">
+<img src="https://iili.io/Hob19MF.png" alt="medium">
 <img src="https://iili.io/pQ1PkB.gif" alt="medium">
 
-<img src="https://i.ibb.co/BqchQsk/small.png" alt="small">
+<img src="https://iili.io/Hob0yn1.png" alt="small">
 <img src="https://iili.io/pQEGTP.gif" alt="small">
-* Note: now you can set the initial position of the progress bar.
