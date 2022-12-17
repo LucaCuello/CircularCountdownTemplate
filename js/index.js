@@ -1,20 +1,36 @@
+// Injecting the countdown into HTML document
+
+const countdownContainer = document.querySelector(".countdown-container");
+
+countdownContainer.innerHTML = `
+    <svg id="progress-wrapper" width="500" height="500" viewBox="0 0 500 500">
+      <circle cx="250" cy="250" r="200" stroke="#c39fe0" stroke-width="25" fill="transparent" id="progress" />
+    </svg>
+    <span class="seconds" id="seconds"></span>
+`;
+countdownContainer.style.position = "relative";
+
+const span = document.querySelector(".seconds");
+
+span.style.position = "absolute";
+span.style.color = "#e8deee";
+span.style.fontWeight = "900";
+span.style.top = "50%";
+span.style.left = "50%";
+span.style.transform = "translate(-50%, -50%)";
+
 const progressWrapper = document.getElementById("progress-wrapper"),
   progress = document.getElementById("progress"),
   timeSpan = document.getElementById("seconds");
 
-// If you want to make a custom circular countdown, you need to edit the object named "options".
-// Duration: expects a number && sets the duration of the countdown.
-// Transition: expects a string && sets the transition used in the animation. Examples: "linear, ease, ease-in, ease-out, ease-in-out"
-// Color: expects a string, && sets the color of the circle. Examples: "#c39fe0, rgb(195, 159, 224), hsl(273deg 51% 75%), hwb(273deg 62% 12%)"
-// Size: expects a number && sets the size of the circle.
-// InitialPosition: expects a string && sets the countdown initial position. Examples: "right, left, up, down"
+//  Countdown functions
 
 const options = {
-  duration: 60,
-  transition: "linear",
-  color: "#c39fe0",
-  size: 500,
-  initialPosition: "right",
+  duration: +countdownContainer.dataset.duration,
+  transition: countdownContainer.dataset.transition,
+  color: countdownContainer.dataset.color,
+  size: +countdownContainer.dataset.size,
+  initialPosition: countdownContainer.dataset.position,
 };
 
 const circularCountdown = ({

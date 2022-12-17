@@ -1,0 +1,5 @@
+@keyframes progress {
+    100% {
+        stroke-dashoffset: 1256.12939453125;
+    }
+}

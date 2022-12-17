@@ -20,19 +20,3 @@ body {
     width: 100%;
     background-color: rgb(19, 16, 16);
 }
-
-svg {
-    position: relative;
-}
-
-.seconds {
-    position: absolute;
-    color: #e8deee;
-    font-weight: 900;
-}
-
-@keyframes progress {
-    100% {
-        stroke-dashoffset: 1256.12939453125;
-    }
-}
