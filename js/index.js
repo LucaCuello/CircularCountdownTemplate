@@ -90,8 +90,8 @@ const animationStart = (color, transition, duration) => {
   progressWrapper.style.animation = `progress ${transition} ${duration}s forwards`;
 };
 
-const init = () => {
+const initCountdown = () => {
   circularCountdown(options);
 };
 
-init();
+initCountdown();
